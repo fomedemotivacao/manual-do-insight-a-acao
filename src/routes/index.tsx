@@ -77,7 +77,7 @@ function Index() {
 
             <p className="mt-7 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
               O <strong className="text-foreground">Manual do Insight à Ação</strong> é o guia direto para quem
-              já entendeu o que precisa fazer — mas trava antes de fazer. Sai da paralisia. Organiza a mente.
+              já entendeu o que precisa fazer, mas trava antes de fazer. Sai da paralisia. Organiza a mente.
               Cria constância. Sem motivação vazia, sem fórmula mágica. Só método aplicável na vida real.
             </p>
 
@@ -109,7 +109,7 @@ function Index() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-elegant ring-1 ring-foreground/5">
               <img
                 src={heroImg}
-                alt="Manual aberto sobre uma mesa iluminada por luz natural — símbolo de clareza e ação"
+                alt="Manual aberto sobre uma mesa iluminada por luz natural, símbolo de clareza e ação"
                 className="h-full w-full object-cover"
                 width={1024}
                 height={1280}
@@ -142,7 +142,7 @@ function Index() {
 
         <div className="mx-auto mt-16 grid max-w-5xl gap-4 px-6 sm:grid-cols-2">
           {[
-            "Você consome conteúdo o dia inteiro — e aplica quase nada.",
+            "Você consome conteúdo o dia inteiro e aplica quase nada.",
             "Começa projetos com energia e abandona poucos dias depois.",
             "Vive cansado mentalmente, mesmo sem ter feito o que importava.",
             "Sente que tem potencial, mas ele continua escondido.",
@@ -180,7 +180,7 @@ function Index() {
             <div className="mt-10 space-y-5">
               {[
                 ["Insight sem método", "Toda boa ideia morre quando não vira passo concreto."],
-                ["Mente desorganizada", "Sem prioridade definida, tudo parece urgente — e nada se cumpre."],
+                ["Mente desorganizada", "Sem prioridade definida, tudo parece urgente e nada se cumpre."],
                 ["Ausência de direção prática", "Falta um sistema simples que sustente a ação no dia ruim, não só no dia bom."],
               ].map(([title, desc]) => (
                 <div key={title} className="flex gap-4 border-l-2 border-accent/50 pl-5">
@@ -219,7 +219,7 @@ function Index() {
 
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              ["Clareza mental", "Saiba exatamente o que importa hoje — e o que pode esperar."],
+              ["Clareza mental", "Saiba exatamente o que importa hoje e o que pode esperar."],
               ["Direção prática", "Troque planos genéricos por passos pequenos, possíveis e executáveis."],
               ["Foco real", "Reduza o ruído mental e volte a sentir o prazer de terminar o que começa."],
               ["Menos procrastinação", "Quebre o ciclo do adiamento sem precisar virar outra pessoa."],
@@ -272,11 +272,11 @@ function Index() {
 
             <ol className="mt-10 space-y-6">
               {[
-                ["Diagnóstico dos seus bloqueios", "Identifique o que, de fato, está te paralisando — e pare de lutar contra o inimigo errado."],
+                ["Diagnóstico dos seus bloqueios", "Identifique o que, de fato, está te paralisando e pare de lutar contra o inimigo errado."],
                 ["Reorganização da mente e das prioridades", "Coloque ordem onde hoje só existe acúmulo. Defina o que merece a sua energia."],
                 ["Da percepção ao plano", "Transforme insights soltos em uma direção clara, com começo, meio e movimento."],
                 ["Construção de ação simples e repetível", "Crie um padrão pequeno o suficiente para você não desistir."],
-                ["Aplicação real na sua rotina", "Adapte tudo à sua vida — mesmo com pouco tempo, energia ou paciência."],
+                ["Aplicação real na sua rotina", "Adapte tudo à sua vida, mesmo com pouco tempo, energia ou paciência."],
               ].map(([title, desc], i) => (
                 <li key={title} className="flex gap-5">
                   <div className="flex-none">
@@ -308,11 +308,11 @@ function Index() {
               <p className="text-xs uppercase tracking-[0.25em] text-primary-foreground/60">Antes</p>
               <h3 className="mt-4 font-serif text-2xl">A vida em modo rascunho</h3>
               <ul className="mt-6 space-y-3 text-primary-foreground/80">
-                <li>— Mente cheia, dias vazios.</li>
-                <li>— Culpa por saber e não fazer.</li>
-                <li>— Recomeços que duram poucos dias.</li>
-                <li>— Cansaço sem entrega.</li>
-                <li>— Sensação constante de estar atrás.</li>
+                <li>Mente cheia, dias vazios.</li>
+                <li>Culpa por saber e não fazer.</li>
+                <li>Recomeços que duram poucos dias.</li>
+                <li>Cansaço sem entrega.</li>
+                <li>Sensação constante de estar atrás.</li>
               </ul>
             </div>
 
@@ -320,11 +320,11 @@ function Index() {
               <p className="text-xs uppercase tracking-[0.25em] text-accent">Depois</p>
               <h3 className="mt-4 font-serif text-2xl text-primary">A vida em movimento</h3>
               <ul className="mt-6 space-y-3 text-foreground/80">
-                <li>— Clareza sobre o que importa hoje.</li>
-                <li>— Firmeza para fazer o que evitava.</li>
-                <li>— Ação consistente, mesmo nos dias difíceis.</li>
-                <li>— Leveza no lugar da pressão.</li>
-                <li>— Direção, em vez de mais um plano.</li>
+                <li>Clareza sobre o que importa hoje.</li>
+                <li>Firmeza para fazer o que evitava.</li>
+                <li>Ação consistente, mesmo nos dias difíceis.</li>
+                <li>Leveza no lugar da pressão.</li>
+                <li>Direção, em vez de mais um plano.</li>
               </ul>
             </div>
           </div>
@@ -373,7 +373,7 @@ function Index() {
                   Manual do Insight à Ação
                 </h2>
                 <p className="mt-4 text-primary-foreground/80">
-                  O guia prático para quem já entendeu — e agora precisa fazer.
+                  O guia prático para quem já entendeu e agora precisa fazer.
                 </p>
 
                 <div className="mt-10 flex items-baseline gap-3">
@@ -426,7 +426,7 @@ function Index() {
             <span className="italic text-primary">ou pode mudar a próxima semana inteira.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground text-pretty">
-            Continuar adiando custa caro — só que de um jeito silencioso.
+            Continuar adiando custa caro, só que de um jeito silencioso.
             R$ 19,97 é o preço da virada de chave entre saber e fazer.
           </p>
           <div className="mt-10 flex flex-col items-center gap-4">
@@ -450,7 +450,7 @@ function FAQ() {
   const items: { q: string; a: string }[] = [
     {
       q: "Isso é para mim?",
-      a: "Se você se reconhece em consumir muito, planejar muito e executar pouco — sim. O manual foi pensado para quem tem clareza, mas trava na hora de agir.",
+      a: "Se você se reconhece em consumir muito, planejar muito e executar pouco, sim. O manual foi pensado para quem tem clareza, mas trava na hora de agir.",
     },
     {
       q: "Funciona se eu estiver travado há muito tempo?",
