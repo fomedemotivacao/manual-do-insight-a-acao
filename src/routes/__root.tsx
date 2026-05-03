@@ -29,7 +29,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Manual do Insight à Ação — Transforme clareza em execução" },
+      { title: "Manual do Insight à Ação | Transforme clareza em execução" },
       {
         name: "description",
         content:
